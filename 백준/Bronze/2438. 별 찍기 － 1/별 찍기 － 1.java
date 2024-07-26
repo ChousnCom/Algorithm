@@ -5,7 +5,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int depth = sc.nextInt();
 		for(int i = 0; i<depth; i++) {
-			for(int j = 0; j<(depth+1)-(depth-i); j++) {
+			for(int j = 0; j<i+1; j++) {
 				System.out.print("*");
 			}
 				System.out.println("");
